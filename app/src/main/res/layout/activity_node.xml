@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.supriyak.cleanindia.NodeActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/backgroundcolor"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:id="@+id/textViewList"
+            android:text="Displaying List of Nodes"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="italic"
+            android:textColor="@color/colorAccent"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="20dp"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="12dp"
+            app:contentPadding="4dp"
+            app:cardBackgroundColor="#E000BFBF"
+            android:textAlignment="center"
+            android:id="@+id/node1"
+            android:clickable="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="NODE 1"
+                android:textSize="20dp"
+                android:paddingLeft="95dp"
+                android:paddingTop="20dp"/>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_margin="20dp"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="12dp"
+            app:contentPadding="4dp"
+            app:cardBackgroundColor="#E000BFBF"
+            android:textAlignment="center"
+            android:id="@+id/node2"
+            android:clickable="true">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="NODE 2"
+                android:textSize="20dp"
+                android:paddingLeft="95dp"
+                android:paddingTop="20dp"/>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

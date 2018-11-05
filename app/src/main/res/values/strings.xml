@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Clean India</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="SPINNERVALUES">
+
+        <item>--Select Employee Type--</item>
+        <item>Sanitary Inspector</item>
+        <item>Truck Driver</item>
+
+    </string-array>
+    <string name="title_activity_location">Location</string>
+    <string name="lblLoc">Select city</string>
+    <string name="lblSubloc">Select Sub-Region</string>
+    <string-array name="loc_name">
+        <item>--select--</item>
+        <item>Tirupati</item>
+        <item>kadapa</item>
+        <item>Nellore</item>
+    </string-array>
+    <string-array name="Trashid">
+
+        <item>--Select Node --</item>
+        <item>Node1 - Trashcan 1</item>
+        <item>Node2 - Trashcan 2</item>
+        <item>Node2 - Trashcan 3</item>
+
+    </string-array>
+
+    <string-array name="Validation">
+
+        <item>--Select--</item>
+        <item>Valid</item>
+        <item>Invalid</item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.supriyak.cleanindia">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".ViewfeedbackActivity" />
+        <activity android:name=".ValidationActivity" />
+        <activity android:name=".Trashcan2Activity" />
+        <activity android:name=".Trashcan1Activity" />
+        <activity android:name=".StatusActivity" />
+        <activity android:name=".StatisticsActivity" />
+        <activity android:name=".Statistics2Activity" />
+        <activity android:name=".Statistics1Activity" />
+        <activity android:name=".SihomeActivity" />
+        <activity android:name=".SelectActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".OptionActivity" />
+        <activity android:name=".Option2Activity" />
+        <activity android:name=".Option1Activity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".NodeActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".DriverhomeActivity" />
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".GivefeedActivity" />
+        <activity android:name=".LocationActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "100922264269",
+    "firebase_url": "https://clean-india-7044f.firebaseio.com",
+    "project_id": "clean-india-7044f",
+    "storage_bucket": "clean-india-7044f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100922264269:android:66274ea68adb154c",
+        "android_client_info": {
+          "package_name": "com.example.supriyak.cleanindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100922264269-5u747eq957bdacqnf53vecgb7ln84at1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJYGQ0cqdUsLCOPO675_W2tqDj8UJwwN0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
